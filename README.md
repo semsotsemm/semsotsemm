@@ -32,6 +32,8 @@ I strive to build projects that solve real-world problems while serving as a lea
   <img src="https://skillicons.dev/icons?i=py" height="40" alt="python logo"  />
   <img width="12" />
   <img src="https://img.icons8.com/ios11/512/FFFFFF/github.png" height="40" alt="python logo"  />
+  <img src="https://download.logo.wine/logo/Vim_(text_editor)/Vim_(text_editor)-Logo.wine.png" height="40" alt="python logo"  />
+  <img width="12" />
 </div>
 <br>
 
