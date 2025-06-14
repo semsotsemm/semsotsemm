@@ -1,6 +1,9 @@
-<h1 align="center">
-    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=I'm+semsotsemm!;" />
-    <br>
+
+<div display="flex">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Jim+Nightshade&size=35&pause=1000&duration=3000&color=FFFFFFC5&multiline=true&height=400&width=400&lines=Together+in+death%2C+woah-woah;Would+you+die+tonight+for+love%3F;Baby%2C+join+in+me+death;Won't+you+dieeeeeeeeee??????????../)"></a>
+    <img width="50%" alt="🦑" src="https://i.gifer.com/3Bu6.gif">
+
+</div>
 <h3 align="center">Begginer software developer from Belarus</h3>
 <br>
 
