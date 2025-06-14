@@ -1,6 +1,6 @@
 
-<div display="flex">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Jim+Nightshade&size=35&pause=1000&duration=3000&color=FFFFFFC5&multiline=true&height=400&width=400&lines=Together+in+death%2C+woah-woah;Would+you+die+tonight+for+love%3F;Baby%2C+join+in+me+death;Won't+you+dieeeeeeeeee??????????../)"></a>
+<div display="flex" flex-wrap="wrap">
+  <img width="45%"  src="https://readme-typing-svg.herokuapp.com?font=Jim+Nightshade&size=35&pause=1000&duration=3000&color=FFFFFFC5&multiline=true&height=400&width=400&lines=Together+in+death%2C+woah-woah;Would+you+die+tonight+for+love%3F;Baby%2C+join+in+me+death;Won't+you+dieeeeeeeeee??????????../)"></a>
     <img width="50%" alt="🦑" src="https://i.gifer.com/3Bu6.gif">
 
 </div>
