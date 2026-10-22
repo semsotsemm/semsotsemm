@@ -2,7 +2,11 @@
 <div align="center">
 Use Ubuntu? Fck lame
 <br><br>
-    
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/semsotsemm/readme-assets/main/1.gif" width="600" alt="Profile animation">
+</p>
+
 Technologies & Tools <br>
 <p align="center">
     <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=nextjs,c,arch,docker,python,cpp,postman,postgresql,bash,git&theme=dark&perline=15" alt="My Skills" /></a>
