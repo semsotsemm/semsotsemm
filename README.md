@@ -4,7 +4,9 @@ Use Ubuntu? Fck lame
 <br><br>
 
 <p align="center">
-  <img src="https://github.com/semsotsemm/readme-assets/blob/main/1.gif?raw=true" width="600" alt="Animation">
+<!-- daily-gif:start -->
+  <img src="https://raw.githubusercontent.com/semsotsemm/readme-assets/dfb496a65fced64bfb229404d8174d05672f51c2/4.gif" width="270" alt="Profile animation 4">
+<!-- daily-gif:end -->
 </p>
 
 Technologies & Tools <br>
