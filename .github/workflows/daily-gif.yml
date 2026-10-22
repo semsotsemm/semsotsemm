@@ -23,11 +23,24 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
       - name: Test weekday selection and safe README edits
         run: python3 -m unittest discover -s .github/scripts -p 'test_*.py' -v
       - name: Select today's animation (Europe/Moscow)
         run: python3 .github/scripts/update_daily_gif.py
+      - name: Verify published GIFs are accessible
+        run: |
+          python3 - <<'PY'
+          import sys
+          from urllib.request import urlopen
+          sys.path.insert(0, '.github/scripts')
+          from update_daily_gif import BASE_URL
+          for number in range(1, 6):
+              with urlopen(f'{BASE_URL}/{number}.gif', timeout=30) as response:
+                  assert response.status == 200
+                  assert response.read(6) in (b'GIF87a', b'GIF89a')
+                  print(f'{number}.gif: HTTP 200, valid GIF header')
+          PY
       - name: Commit only when the animation changes
         run: |
           if git diff --quiet -- README.md; then
