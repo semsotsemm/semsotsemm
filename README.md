@@ -5,7 +5,7 @@ Use Ubuntu? Fck lame
 
 <p align="center">
 <!-- daily-gif:start -->
-  <img src="https://raw.githubusercontent.com/semsotsemm/readme-assets/dfb496a65fced64bfb229404d8174d05672f51c2/1.gif" width="360" alt="Profile animation 1">
+  <img src="https://raw.githubusercontent.com/semsotsemm/readme-assets/dfb496a65fced64bfb229404d8174d05672f51c2/2.gif" width="270" alt="Profile animation 2">
 <!-- daily-gif:end -->
 </p>
 
