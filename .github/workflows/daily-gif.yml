@@ -28,6 +28,10 @@ jobs:
         run: python3 -m unittest discover -s .github/scripts -p 'test_*.py' -v
       - name: Select today's animation (Europe/Moscow)
         run: python3 .github/scripts/update_daily_gif.py
+      - name: Refresh animated streak card
+        # Keep the weekday GIF update working if the statistics service is down.
+        continue-on-error: true
+        run: python3 .github/scripts/update_streak_card.py
       - name: Verify published GIFs are accessible
         run: |
           python3 - <<'PY'
@@ -35,20 +39,20 @@ jobs:
           from urllib.request import urlopen
           sys.path.insert(0, '.github/scripts')
           from update_daily_gif import BASE_URL
-          for number in range(1, 6):
+          for number in range(1, 7):
               with urlopen(f'{BASE_URL}/{number}.gif', timeout=30) as response:
                   assert response.status == 200
                   assert response.read(6) in (b'GIF87a', b'GIF89a')
                   print(f'{number}.gif: HTTP 200, valid GIF header')
           PY
-      - name: Commit only when the animation changes
+      - name: Commit only when the profile changes
         run: |
-          if git diff --quiet -- README.md; then
-            echo "The correct GIF is already selected."
+          if git diff --quiet -- README.md profile/streak.svg; then
+            echo "The profile is already up to date."
             exit 0
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -- README.md
-          git commit -m 'chore: update daily profile GIF'
+          git add -- README.md profile/streak.svg
+          git commit -m 'chore: update profile animation and streak stats'
           git push

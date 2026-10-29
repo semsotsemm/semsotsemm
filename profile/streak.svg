@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="220" viewBox="0 0 600 220" role="img" aria-labelledby="title desc">
+  <title id="title">GitHub contribution streak — semsotsemm</title>
+  <desc id="desc">Всего вкладов: 243. Текущая серия: 8. Самая длинная серия: 17.</desc>
+  <defs>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="1.2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <style>
+    text { font-family: "Segoe UI", Arial, sans-serif; text-anchor: middle; }
+    .number { font-size: 32px; font-weight: 700; }
+    .label { fill: #f0f6fc; font-size: 13px; }
+    .dates { fill: #a0a8b4; font-size: 12px; }
+    .accent-fill { fill: #58a6ff; animation: rainbow-fill 12s linear infinite; }
+    .accent-stroke { stroke: #58a6ff; animation: rainbow-stroke 12s linear infinite; }
+    @keyframes rainbow-fill {
+      0%,100% { fill: #58a6ff; } 20% { fill: #bc8cff; }
+      40% { fill: #ff7eb6; } 60% { fill: #f2cc60; } 80% { fill: #56d8b3; }
+    }
+    @keyframes rainbow-stroke {
+      0%,100% { stroke: #58a6ff; } 20% { stroke: #bc8cff; }
+      40% { stroke: #ff7eb6; } 60% { stroke: #f2cc60; } 80% { stroke: #56d8b3; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .accent-fill, .accent-stroke { animation: none; }
+    }
+  </style>
+  <rect width="600" height="220" rx="20" fill="#0d1117"/>
+  <path d="M200 32V201 M400 32V201" stroke="#30363d" stroke-width="1"/>
+  <text class="number accent-fill" x="100" y="90" filter="url(#glow)">243</text>
+  <text class="label" x="100" y="148">Total Contributions</text>
+  <text class="dates" x="100" y="179">30 декабря 2024</text>
+<text class="dates" x="100" y="197">— настоящее время</text>
+  <circle class="accent-stroke" cx="300" cy="82" r="43" fill="none" stroke-width="5" stroke-dasharray="250 21" transform="rotate(-76 300 82)" filter="url(#glow)"/>
+  <path class="accent-fill" d="M301 20C305 25 310 28 307 34C306 38 299 40 295 36C291 32 295 28 297 25C297 29 298 31 300 31C303 30 302 24 301 20Z" filter="url(#glow)"/>
+  <text class="number" x="300" y="93" fill="#f0f6fc">8</text>
+  <text class="label" x="300" y="148" font-weight="700">Current Streak</text>
+  <text class="dates" x="300" y="179">22 октября 2026</text>
+<text class="dates" x="300" y="197">— 29 октября 2026</text>
+  <text class="number accent-fill" x="500" y="90" filter="url(#glow)">17</text>
+  <text class="label" x="500" y="148">Longest Streak</text>
+  <text class="dates" x="500" y="179">23 мая 2025</text>
+<text class="dates" x="500" y="197">— 8 июня 2025</text>
+</svg>

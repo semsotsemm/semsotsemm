@@ -6,16 +6,16 @@ import re
 from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parents[2]
-ASSETS_REVISION = "dfb496a65fced64bfb229404d8174d05672f51c2"
+ASSETS_REVISION = "main"
 BASE_URL = f"https://raw.githubusercontent.com/semsotsemm/readme-assets/{ASSETS_REVISION}"
 PATTERN = re.compile(r"<!-- daily-gif:start -->.*?<!-- daily-gif:end -->", re.DOTALL)
 
 
 def animation_for_day(weekday: int) -> int:
-    """Monday = 0; Friday, Saturday and Sunday all show GIF 5."""
+    """Monday = 0; Friday shows GIF 5; Saturday and Sunday show GIF 6."""
     if not 0 <= weekday <= 6:
         raise ValueError("weekday must be between 0 and 6")
-    return min(weekday + 1, 5)
+    return min(weekday + 1, 6)
 
 
 def update_readme(content: str, weekday: int) -> str:

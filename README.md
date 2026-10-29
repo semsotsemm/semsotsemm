@@ -5,7 +5,7 @@ PYTHON <3
 
 <p align="center">
 <!-- daily-gif:start -->
-  <img src="https://raw.githubusercontent.com/semsotsemm/readme-assets/dfb496a65fced64bfb229404d8174d05672f51c2/4.gif" width="270" alt="Profile animation 4">
+  <img src="https://raw.githubusercontent.com/semsotsemm/readme-assets/main/4.gif" width="270" alt="Profile animation 4">
 <!-- daily-gif:end -->
 </p>
 
@@ -16,12 +16,12 @@ Technologies & Tools <br>
 
 <h3 align="center">Statistics:</h3>
 <div align="center">
-    <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=semsotsemm&theme=github-dark-blue&border_radius=9" alt="GitHub Streak" /></a>
+    <a href="https://github.com/semsotsemm"><img src="./profile/streak.svg" width="600" alt="GitHub Streak" /></a>
 </div>
 <div align="center">
     <br>
 </div>
 <h3 align="center">LeetCode:</h3>
  <div align="center">
-<img width=450 src="https://leetcard.jacoblin.cool/4qkkr1pWqo?thFsteme=wtf&font=Tomorrow" alt="ovi"/>
+<img width="450" src="https://leetcard.jacoblin.cool/4qkkr1pWqo?theme=wtf&amp;font=Tomorrow&amp;border=0&amp;radius=20&amp;colors=0d1117,21262d,f0f6fc,8b949e,58a6ff,3fb950,d29922,f85149" alt="LeetCode statistics"/>
  </div>

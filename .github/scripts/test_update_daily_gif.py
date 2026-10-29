@@ -6,7 +6,7 @@ from update_daily_gif import BASE_URL, animation_for_day, update_readme
 
 class DailyGifTests(unittest.TestCase):
     def test_all_weekdays(self):
-        self.assertEqual([animation_for_day(day) for day in range(7)], [1, 2, 3, 4, 5, 5, 5])
+        self.assertEqual([animation_for_day(day) for day in range(7)], [1, 2, 3, 4, 5, 6, 6])
 
     def test_invalid_weekday(self):
         for day in (-1, 7):
@@ -19,7 +19,7 @@ class DailyGifTests(unittest.TestCase):
             updated = update_readme(original, day)
             self.assertTrue(updated.startswith("before\n"))
             self.assertTrue(updated.endswith("\nafter"))
-            self.assertIn(f"{BASE_URL}/{min(day + 1, 5)}.gif", updated)
+            self.assertIn(f"{BASE_URL}/{min(day + 1, 6)}.gif", updated)
             self.assertEqual(update_readme(updated, day), updated)
 
     def test_missing_or_duplicate_markers_fail_safely(self):
