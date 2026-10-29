@@ -1,6 +1,6 @@
 
 <div align="center">
-Use Ubuntu? Fck lame
+PYTHON <3
 <br><br>
 
 <p align="center">
@@ -11,7 +11,7 @@ Use Ubuntu? Fck lame
 
 Technologies & Tools <br>
 <p align="center">
-    <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=nextjs,c,arch,docker,python,cpp,postman,postgresql,bash,git&theme=dark&perline=15" alt="My Skills" /></a>
+    <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=nextjs,nix,docker,python,cpp,postgresql,pycharm,pytorch,tensorflow,fastapi&perline=15" alt="My Skills" /></a>
 </p>
 
 <h3 align="center">Statistics:</h3>
@@ -21,6 +21,7 @@ Technologies & Tools <br>
 <div align="center">
     <br>
 </div>
+<h3 align="center">LeetCode:</h3>
  <div align="center">
 <img width=450 src="https://leetcard.jacoblin.cool/4qkkr1pWqo?thFsteme=wtf&font=Tomorrow" alt="ovi"/>
  </div>
