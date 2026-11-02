@@ -5,7 +5,7 @@ PYTHON <3
 
 <p align="center">
 <!-- daily-gif:start -->
-  <img src="https://raw.githubusercontent.com/semsotsemm/readme-assets/main/6.gif" width="270" alt="Profile animation 6">
+  <img src="https://raw.githubusercontent.com/semsotsemm/readme-assets/main/1.gif" width="360" alt="Profile animation 1">
 <!-- daily-gif:end -->
 </p>
 
